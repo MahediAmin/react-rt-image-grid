@@ -1,7 +1,7 @@
 {
-  "name": "react-fb-image-grid",
-  "version": "0.1.5",
-  "description": "A beautifully featured image grid library for React which represents the images just like the facebook grid images with the count for extra as well",
+  "name": "react-rt-image-grid",
+  "version": "1.0.0",
+  "description": "A beautifully featured image grid.",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -10,40 +10,27 @@
     "lib",
     "umd"
   ],
-  "scripts": {
-    "build": "nwb build-react-component --copy-files",
-    "clean": "nwb clean-module && nwb clean-demo",
-    "prepublishOnly": "npm run build",
-    "start": "nwb serve-react-demo",
-    "test": "nwb test-react",
-    "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server"
-  },
   "dependencies": {
-    "@material-ui/core": "^3.1.2",
-    "@material-ui/icons": "^3.0.1",
-    "react-bootstrap": "^0.32.4",
-    "react-image-lightbox": "^5.0.0"
+    "@material-ui/core": "^5.0.0-alpha.22",
+    "@material-ui/icons": "^5.0.0-alpha.22",
+    "react-bootstrap": "^1.4.3"
   },
   "peerDependencies": {
-    "react": "16.x"
+    "react": "^17.0.1"
   },
   "devDependencies": {
     "nwb": "0.23.x",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
-  "author": "Mohammad Kashif Sulaiman",
-  "homepage": "https://github.com/Expertizo/react-fb-image-grid",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahedi Amin",
+  "homepage": "https://github.com/bond0077231/react-rt-image-grid",
   "license": "MIT",
-  "repository": "https://github.com/Expertizo/react-fb-image-grid",
+  "repository": "https://github.com/bond0077231/react-rt-image-grid",
   "keywords": [
-    "react-facebook-images",
-    "react-images",
-    "react-grid",
-    "react-facebook-images-grid",
-    "react-fb-images-grid",
-    "react-fb-images",
-    "react-beautiful-images"
+    "react-rt-image-grid"
   ]
 }
