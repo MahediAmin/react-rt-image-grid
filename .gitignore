@@ -1,0 +1,11 @@
+
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+
+
+
+# misc
+.DS_Store

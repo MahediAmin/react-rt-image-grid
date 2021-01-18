@@ -7,7 +7,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 import React, { Component } from 'react';
-import { Image, Grid, Row, Col } from 'react-bootstrap';
+import { Image, Container, Row, Col } from 'react-bootstrap';
 import Modal from './Modal';
 import PropTypes from 'prop-types';
 
@@ -58,7 +58,7 @@ var Images = (_temp = _class = function (_Component) {
     var overlay = images.length > countFrom && countFrom == 1 ? this.renderCountOverlay(true) : this.renderOverlay();
 
     return React.createElement(
-      Grid,
+      Container,
       null,
       React.createElement(
         Row,
@@ -80,7 +80,7 @@ var Images = (_temp = _class = function (_Component) {
     var conditionalRender = [3, 4].includes(images.length) || images.length > +countFrom && [3, 4].includes(+countFrom);
 
     return React.createElement(
-      Grid,
+      Container,
       null,
       React.createElement(
         Row,
@@ -107,7 +107,7 @@ var Images = (_temp = _class = function (_Component) {
     var conditionalRender = images.length == 4 || images.length > +countFrom && +countFrom == 4;
 
     return React.createElement(
-      Grid,
+      Container,
       null,
       React.createElement(
         Row,
@@ -182,7 +182,7 @@ var Images = (_temp = _class = function (_Component) {
 
     return React.createElement(
       'div',
-      { className: 'grid-container' },
+      { className: 'Container-container' },
       [1, 3, 4].includes(imagesToShow.length) && this.renderOne(),
       imagesToShow.length >= 2 && imagesToShow.length != 4 && this.renderTwo(),
       imagesToShow.length >= 4 && this.renderThree(),
