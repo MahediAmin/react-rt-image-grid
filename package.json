@@ -1,7 +1,7 @@
 {
-  "name": "react-rt-image-Container",
+  "name": "react-rt-image-grid",
   "version": "1.0.0",
-  "description": "A beautifully featured image Container.",
+  "description": "A beautifully featured image grid.",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -16,21 +16,22 @@
     "react-bootstrap": "^1.4.3"
   },
   "peerDependencies": {
-    "react": "^17.0.1"
+    "react": "^16.5.2"
   },
   "devDependencies": {
     "nwb": "0.23.x",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-image-lightbox": "5.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mahedi Amin",
-  "homepage": "https://github.com/bond0077231/react-rt-image-Container",
+  "homepage": "https://github.com/bond0077231/react-rt-image-grid",
   "license": "MIT",
-  "repository": "https://github.com/bond0077231/react-rt-image-Container",
+  "repository": "https://github.com/bond0077231/react-rt-image-grid",
   "keywords": [
-    "react-rt-image-Container"
+    "react-rt-image-grid"
   ]
 }

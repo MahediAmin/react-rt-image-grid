@@ -3,26 +3,26 @@
 
 /* Images Component CSS */
 
-.Container-container {
+.grid-container {
   text-align: center;
   margin: auto;
   width: 100%;
   padding: 10px;
 }
 
-.Container-container > .container {
+.grid-container > .container {
   padding-left: 0;
   padding-right: 0;
   width: 100% !important;
 }
 
-.Container-container > .container *{
+.grid-container > .container *{
   margin: 0;
   padding: 0;
   cursor: pointer;
 }
 
-.Container-container > .col-md-4 {
+.grid-container > .col-md-4 {
   width: 33.33333333%;
 }
 
