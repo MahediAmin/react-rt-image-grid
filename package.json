@@ -1,7 +1,7 @@
 {
-  "name": "react-rt-image-grid",
+  "name": "react-rt-image-Container",
   "version": "1.0.0",
-  "description": "A beautifully featured image grid.",
+  "description": "A beautifully featured image Container.",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -27,10 +27,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mahedi Amin",
-  "homepage": "https://github.com/bond0077231/react-rt-image-grid",
+  "homepage": "https://github.com/bond0077231/react-rt-image-Container",
   "license": "MIT",
-  "repository": "https://github.com/bond0077231/react-rt-image-grid",
+  "repository": "https://github.com/bond0077231/react-rt-image-Container",
   "keywords": [
-    "react-rt-image-grid"
+    "react-rt-image-Container"
   ]
 }
