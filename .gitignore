@@ -1,11 +1,9 @@
-
-
-# Dependency directories
-node_modules/
-jspm_packages/
-
-
-
-
-# misc
-.DS_Store
+/coverage
+/demo/dist
+/es
+/lib
+/node_modules
+/umd
+/.idea/*
+*.xml
+npm-debug.log*
